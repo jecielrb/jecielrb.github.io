@@ -1,0 +1,17 @@
+body {
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This is optional and helps to center vertically as well */
+    margin: 0;
+}
+
+.about_me {
+    text-align: center;
+}
+
+.minimalistic-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
