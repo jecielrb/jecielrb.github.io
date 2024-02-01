@@ -1,0 +1,12 @@
+*{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+
+.skills {
+    margin-top: 10px;
+    list-style-type: square;
+    padding-left: 20px;
+}

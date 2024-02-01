@@ -1,0 +1,34 @@
+.navbar{
+    margin-bottom: 0;
+}
+
+.nav-link {
+    color: #b8b8b8;
+    padding: 8px 12px; /* Adjusted padding */
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+/* Optional: Add a bit more styling to the links if needed */
+.navigation a {
+    margin: 0 6px; /* Reduced spacing between links */
+}
+
+.logo-link {
+    color: #b8b8b8;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 8px 12px; /* Adjusted padding */
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.logo-link:hover{
+    color: #ffffff;
+    transform: scale(1.2);
+}

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@mixin theme($theme: #111, $text-color: #fff){
+    background-color: $theme !important;
+    color: $text-color !important;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the wrapper horizontally */
+    padding: 5px; /* Optional: Add padding to the wrapper */
+}
+*{
+    @include theme;
+    
+}
+
+.light-theme{
+    *{
+        @include theme($theme: #fff, $text-color:#111);
+
+    }
+}
+
+.dark-theme{
+    *{
+        @include theme;
+    }
+}
